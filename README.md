@@ -1,5 +1,5 @@
 # Запуск проекта с нуля
-
+Требуется python
 ## 1. Перейти в папку проекта
 
 ```bash
@@ -20,29 +20,13 @@ python -m venv venv
 venv\Scripts\activate
 ```
 
-Для macOS/Linux:
-
-```bash
-source venv/bin/activate
-```
-
 ## 4. Установить зависимости
 
 ```bash
 pip install -r requirements.txt
 ```
 
-## 5. Создать файл .env
-
-В папке `support_llm_agent` создайте файл `.env`.
-
-Добавьте в него строку:
-
-```env
-OPENROUTER_API_KEY=ваш_ключ_openrouter
-```
-
-## 6. Запустить приложение
+## 5. Запустить приложение
 
 ```bash
 python app.py
