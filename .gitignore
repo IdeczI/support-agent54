@@ -1,0 +1,4 @@
+.env
+support_agent.db
+__pycache__/
+*.pyc
